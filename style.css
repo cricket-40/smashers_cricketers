@@ -83,11 +83,13 @@ nav{
   flex-wrap:wrap;
 }
 nav a{
-  color:#ddd;
-  font-weight:700;
-}
-nav a:hover{
   color:#f3c432;
+  font-weight:900;
+  text-decoration:none;
+}
+
+nav a:hover{
+  color:white;
 }
 .hero{
   min-height:86vh;
