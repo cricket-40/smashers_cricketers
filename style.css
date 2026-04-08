@@ -55,6 +55,20 @@ a{
   text-transform:uppercase;
   letter-spacing:2px;
 }
+.team-photos{
+  display:flex;
+  gap:15px;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+.team-photos img{
+  width:100%;
+  max-width:250px;
+  border-radius:18px;
+  border:3px solid #f3c432;
+  object-fit:cover;
+}
 .player-img{
   width:120px;
   height:120px;
